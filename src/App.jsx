@@ -1,5 +1,10 @@
+import { Route, Routes } from "react-router-dom";
+
+import NavBar from "./components/NavBar.jsx";
+
 const App = () => {
-  return <h1>Hello world!</h1>;
+  <NavBar />;
+  return <h1>Hello world</h1>;
 };
 
 export default App;
